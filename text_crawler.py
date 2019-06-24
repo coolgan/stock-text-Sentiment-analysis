@@ -73,6 +73,6 @@ def main(code,start_num,end_num,batch_size):
     os.chdir(abspath)
 	
 if __name__ == '__main__':
-	p=Pool(4)
-	p.map(main,codes)
+    p=Pool(4)
+    p.map(main,codes)
 
