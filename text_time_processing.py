@@ -32,7 +32,7 @@ def df_time_processing(total):
     return df
 
 #主循环：处理所有股票的股评
-path='D:\python\新苗-个股\data'
+path='D:\pyhon\data'
 #首先合并个股的所有股评json文件
 filelist=os.listdir(path)
 for file in filelist[1:]:
@@ -57,7 +57,7 @@ for file in filelist[1:]:
         print(file,filelist.index(file))
 		
 ##====第二部分：把股评的json文件转为csv文件
-path='D:\python\新苗-个股\data'
+path='D:\python\data'
 filelist=os.listdir(path)
 for file in filelist[1:]:
     try:
